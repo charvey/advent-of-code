@@ -1,7 +1,9 @@
 import hashlib
 import sys
 
-input = 'ckczppom'
+file = open('input.txt', 'r')
+input = file.readline().strip()
+file.close()
 
 
 def findWithPrefix(prefix):
